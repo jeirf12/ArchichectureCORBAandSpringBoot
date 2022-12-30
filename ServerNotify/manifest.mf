@@ -1,0 +1,2 @@
+Class-Path: ..\Common\Common.jar
+Main-Class: server.services.ServerObject
