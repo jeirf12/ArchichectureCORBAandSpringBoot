@@ -24,20 +24,22 @@ cd ArchitectureCORBAandSpringBoot
 ---
 <details>
   <summary>Execution</summary>
+
   **Note:** Before executing this script have installed the pre-requisite programs.
   > Execution following command for execute complete project:
-```
-run.bat
-```
+  ```
+  run.bat
+  ```
 </details>
 
 ---
 <details>
   <summary>Clean files</summary>
+
   > If you want to delete the create folder and executables, run the following command:
-```
-clean.bat
-```
+  ```
+  clean.bat
+  ```
 </details>
 
 ---
