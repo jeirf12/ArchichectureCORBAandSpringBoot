@@ -15,9 +15,11 @@ public class ServerObject {
         try {
             String[] vectorDatosLocalizarNS = new String[4];//almacena la información para localizar el ns
             vectorDatosLocalizarNS[0] = "-ORBInitialHost";
-            vectorDatosLocalizarNS[1] = Console.read("Ingrese la dirección IP donde escucha el n_s: ", "",false);
+            // vectorDatosLocalizarNS[1] = Console.read("Ingrese la dirección IP donde escucha el n_s: ", "",false);
+            vectorDatosLocalizarNS[1] = "localhost";
             vectorDatosLocalizarNS[2] = "-ORBInitialPort";
-            vectorDatosLocalizarNS[3] = String.valueOf(Console.read("Ingrese el puerto donde escucha el n_s: ", 0,false));
+            vectorDatosLocalizarNS[3] = "3030";
+            // vectorDatosLocalizarNS[3] = String.valueOf(Console.read("Ingrese el puerto donde escucha el n_s: ", 0,false));
 
             DeclarationRepository objRepository = new DeclarationRepository();
             ControllerManageNotify objRemotoGestionCanciones = new ControllerManageNotify(objRepository);
