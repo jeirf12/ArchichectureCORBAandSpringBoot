@@ -2,4 +2,4 @@
 
 title Server Statement
 
-mvn.cmd spring-boot:run
+mvnw.cmd spring-boot:run
